@@ -1,9 +1,13 @@
 import React from "react";
+import SideBar from "../components/SideBar";
+import Map from "../components/Map";
+import styles from "./AppLayout.module.css";
 
 export default function AppLayout() {
   return (
-    <div>
-      <h1>AppLayout</h1>
+    <div className={styles.app}>
+      <SideBar />
+      <Map />
     </div>
   );
 }
