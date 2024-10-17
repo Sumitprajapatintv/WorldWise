@@ -8,6 +8,7 @@
   display: flex;
   background-color: var(--color-dark--2);
   border-radius: 7px;
+  justify-content: space-between;
 }
 
 .nav a:link,
